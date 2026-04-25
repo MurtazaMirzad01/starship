@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h1>Browse through {{ totalStarShips * 10 }} number of starships</h1>
+{% if totalStarShips > 400 %}
+    <p>
+        It is a mass of ships
+    </p>
+{% endif %}
+
+<div>
+    <h1>My Ship</h1>
+    <table>
+        <tr>
+            <th>Ship</th>
+            <td>{{ myship.name | upper }}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

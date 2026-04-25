@@ -2,14 +2,24 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
-class MainController
+class MainController extends AbstractController
 {
     #[Route('/')]
-    public function HomePage(): Response
+    public function homepage(): Response
     {
-        return new Response('<stromg>Starshop</stromg>: Your monoply is here!');
+        $totalStarShips = 546;
+        $myship = [
+            'name' => 'Ship 1',
+            'owner' => 'John Doe',
+            'pass' =>   '123qwe'
+        ];
+        return $this->render('main/homepage.html.twig', [
+            'totalStarShips' => $totalStarShips,
+            'myship' => $myship
+        ]);
     }
 }
