@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<h1>Browse through {{ totalStarShips * 10 }} number of starships</h1>
+<h1>Browse through {{ totalStarShips | length * 20 }} number of starships</h1>
 {% if totalStarShips > 400 %}
     <p>
         It is a mass of ships
