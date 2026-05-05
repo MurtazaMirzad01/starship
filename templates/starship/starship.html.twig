@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <table>
+        <tr>
+            <th>Ship</th>
+            <td>
+                <a href="{{ path('app_starship_show', {
+                    id: starship.id
+                }) }}">
+                {{ starship.name | upper }}</td>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <td>{{ starship.class | upper }}</td>
+        </tr>
+        <tr>
+            <th>Captan</th>
+            <td>{{ starship.captan | upper }}</td>
+        </tr>
+    </table>
+{% endblock %}
