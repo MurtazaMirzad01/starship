@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d61a82a21d0921274814e8d93351601",
+    "content-hash": "4fcbe5452952453b47bae7b8fdfc1857",
     "packages": [
         {
             "name": "composer/semver",
@@ -1279,16 +1279,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.7.0",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
-                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "shasum": ""
             },
             "require": {
@@ -1301,7 +1301,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -1326,7 +1326,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -1338,15 +1338,11 @@
                     "type": "github"
                 },
                 {
-                    "url": "https://github.com/nicolas-grekas",
-                    "type": "github"
-                },
-                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-13T15:52:40+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/dotenv",
@@ -1579,16 +1575,16 @@
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.7.0",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "ccba7060602b7fed0b03c85bf025257f76d9ef32"
+                "reference": "59eb412e93815df44f05f342958efa9f46b1e586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/ccba7060602b7fed0b03c85bf025257f76d9ef32",
-                "reference": "ccba7060602b7fed0b03c85bf025257f76d9ef32",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/59eb412e93815df44f05f342958efa9f46b1e586",
+                "reference": "59eb412e93815df44f05f342958efa9f46b1e586",
                 "shasum": ""
             },
             "require": {
@@ -1602,7 +1598,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -1635,7 +1631,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.7.0"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -1647,15 +1643,11 @@
                     "type": "github"
                 },
                 {
-                    "url": "https://github.com/nicolas-grekas",
-                    "type": "github"
-                },
-                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-05T13:30:16+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -3413,16 +3405,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.7.0",
+            "version": "v3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "d25d82433a80eba6aa0e6c24b61d7370d99e444a"
+                "reference": "45112560a3ba2d715666a509a0bc9521d10b6c43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d25d82433a80eba6aa0e6c24b61d7370d99e444a",
-                "reference": "d25d82433a80eba6aa0e6c24b61d7370d99e444a",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/45112560a3ba2d715666a509a0bc9521d10b6c43",
+                "reference": "45112560a3ba2d715666a509a0bc9521d10b6c43",
                 "shasum": ""
             },
             "require": {
@@ -3440,7 +3432,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -3476,7 +3468,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.7.0"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.6.1"
             },
             "funding": [
                 {
@@ -3496,7 +3488,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-28T09:44:51+00:00"
+            "time": "2025-07-15T11:30:57+00:00"
         },
         {
             "name": "symfony/stimulus-bundle",
@@ -4266,32 +4258,31 @@
         },
         {
             "name": "symfonycasts/tailwind-bundle",
-            "version": "v0.12.0",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyCasts/tailwind-bundle.git",
-                "reference": "17c85e25d3ceb54b8599e8ca4c5b67c485f2a48a"
+                "reference": "81c9e6ff2bb1a95e67fc6af04ca87fccdcf55aa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyCasts/tailwind-bundle/zipball/17c85e25d3ceb54b8599e8ca4c5b67c485f2a48a",
-                "reference": "17c85e25d3ceb54b8599e8ca4c5b67c485f2a48a",
+                "url": "https://api.github.com/repos/SymfonyCasts/tailwind-bundle/zipball/81c9e6ff2bb1a95e67fc6af04ca87fccdcf55aa4",
+                "reference": "81c9e6ff2bb1a95e67fc6af04ca87fccdcf55aa4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "symfony/asset-mapper": "^6.3|^7.0|^8.0",
-                "symfony/cache": "^6.3|^7.0|^8.0",
-                "symfony/console": "^5.4|^6.3|^7.0|^8.0",
-                "symfony/deprecation-contracts": "^2.2|^3.0",
-                "symfony/http-client": "^5.4|^6.3|^7.0|^8.0",
-                "symfony/process": "^5.4|^6.3|^7.0|^8.0"
+                "symfony/asset-mapper": "^6.3|^7.0",
+                "symfony/cache": "^6.3|^7.0",
+                "symfony/console": "^5.4|^6.3|^7.0",
+                "symfony/http-client": "^5.4|^6.3|^7.0",
+                "symfony/process": "^5.4|^6.3|^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.6",
-                "symfony/filesystem": "^6.3|^7.0|^8.0",
-                "symfony/framework-bundle": "^6.3|^7.0|^8.0",
-                "symfony/phpunit-bridge": "^6.3.9|^7.0|^8.0"
+                "symfony/filesystem": "^6.3|^7.0",
+                "symfony/framework-bundle": "^6.3|^7.0",
+                "symfony/phpunit-bridge": "^6.3.9|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4316,9 +4307,9 @@
             ],
             "support": {
                 "issues": "https://github.com/SymfonyCasts/tailwind-bundle/issues",
-                "source": "https://github.com/SymfonyCasts/tailwind-bundle/tree/v0.12.0"
+                "source": "https://github.com/SymfonyCasts/tailwind-bundle/tree/v0.7.1"
             },
-            "time": "2025-11-24T10:14:04+00:00"
+            "time": "2025-01-23T14:54:07+00:00"
         },
         {
             "name": "twig/extra-bundle",
